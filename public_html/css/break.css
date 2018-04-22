@@ -1,0 +1,13 @@
+#fline{
+    width: 50%;
+    height: 4px;
+    float: left;
+    background-color: #00B4CB;
+}
+
+#sline{
+    width: 50%;
+    height: 4px;
+    float: left;
+    background-color:#ec008c;
+}

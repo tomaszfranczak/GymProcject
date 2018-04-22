@@ -1,0 +1,44 @@
+#container{
+    background-image: url(../media/images/img3.jpg);
+    min-height: 250px;
+    background-size: cover;
+}
+
+#content{
+    margin-left: 13%;
+    margin-right: 14.5%;
+    background-color: rgba(0, 0, 0, 0.61);
+    min-height: 250px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    width: 115px;
+    color:white;
+  }
+
+#special2 {
+    width: 287px;
+    font-size: 11px;
+}
+
+.btn_delete{
+    width: 100px;
+    height: 23px;
+    background: rgb(8, 182, 8);
+    color: white;
+    border: rgb(8, 182, 8);
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 1.5px 1.5px grey;
+}
+
+.btn_delete:hover { cursor: pointer; }
+

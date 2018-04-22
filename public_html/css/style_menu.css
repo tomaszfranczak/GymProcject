@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#up {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+#menubar {
+    margin-top:5px;
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    margin-bottom: 10px; 
+}
+
+#logo {
+    margin-left:13%;
+    margin-right: 50px;
+    float: left;
+}
+
+#option-adress{
+    font-weight: bold;
+    color: #00B4CB;
+    margin-top: 50px;
+    margin-right: 160px;
+    float: left;
+}
+
+.option {
+    float: left;
+    font-weight: bold;
+    color: black;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.option-log{
+    float: left;
+    font-weight: bold;
+    color: #00B4CB;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.option:visited{
+    color: black;
+}
+
+.link:visited{
+    color: #00B4CB;
+}
+
+.option-log:hover {
+    color: #ec008c;
+    cursor: pointer;
+}
+
+.option:hover {
+    color: #ec008c;
+    cursor: pointer;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#option-adress:hover{
+    cursor: pointer;
+}
+
+#logout{
+    margin-left: 80%;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+#logout:hover{
+    border: 1px black solid;
+    cursor: pointer;
+}

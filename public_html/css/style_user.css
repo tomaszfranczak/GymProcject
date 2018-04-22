@@ -1,0 +1,123 @@
+* {box-sizing: border-box}
+
+body {
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+tab1 { padding-left: 9em; }
+tab2 { padding-left: 6.5em; }
+tab3 { padding-left: 8em; }
+tab4 { padding-left: 3.5em; }
+tab5 { padding-left: 8.5em; }
+tab6 { padding-left: 4.5em; }
+tab7 { padding-left: 2.25em; }
+tab8 { padding-left: 5em; }
+tab_1 { padding-left: 1em; }
+
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#fline{
+    width: 43%;
+    height: 4px;
+    float: left;
+    background-color: #00B4CB;
+}
+
+#sline{
+    width: 57%;
+    height: 4px;
+    float: left;
+    background-color:#ec008c;
+}
+
+#user_bar {
+    margin-left: 12%;
+    margin-top: 4px;
+    width: 190px;
+    height: 400px;
+    float: left;
+}
+
+.content{
+    margin-top: 4px;
+    padding-top: 30px;
+    height:399px;
+    width: 808px;
+    float: left;
+    border-bottom: 2px #ec008c solid;
+    border-right: 2px #ec008c solid;
+    border-top: 2px #ec008c solid;
+    padding-left: 60px;
+    background-color: rgba(230, 228, 228, 0.281);
+}
+
+.ub{
+    height: 133px;
+    background-color: #00B4CB;
+    width: 175; 
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.ub:hover{
+    background-color: #ec008c;
+    cursor: pointer;
+}
+
+.ub.active{
+    background-color: #ec008c;
+}
+
+#modify{
+    position: absolute;
+    margin-left: 410px;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background-color: #ec008c;
+    border: none;
+    font-weight: bold;
+    color:white;
+}
+
+#modifypass{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 410px;
+    outline: none;
+    width: 200px;
+    height: 35px;
+    background-color: #ec008c;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+#modifypass:hover {
+    background-color: #00B4CB;
+    cursor: pointer;
+}
+
+#modify:hover {
+    background-color: #00B4CB;
+    cursor: pointer;
+}
+
+

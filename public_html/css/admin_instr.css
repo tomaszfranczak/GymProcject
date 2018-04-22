@@ -1,0 +1,45 @@
+.conteiner {
+    margin-left: 13%;
+    margin-right: 9%;
+    border: solid 1px rgb(173, 173, 173);
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+#active{
+    background-color: #ccc;
+}
+
+div.tabcontent {
+    display: none;
+    padding-left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#uzytkownicy {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}

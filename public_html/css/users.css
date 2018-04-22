@@ -1,0 +1,78 @@
+table {
+    border-collapse: collapse;
+  }
+  
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    width: 145px;
+  }
+
+tr:nth-child(even) td {
+	background: #fff;
+}
+tr:nth-child(odd) td {
+	background: #eee;
+}
+
+#special {
+    width: 250px;
+    margin-left: 20px;
+}
+
+#special2 {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.btn_update{
+    width: 70px;
+    height: 23px;
+    background: green;
+    color: white;
+    border: green;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 1.5px 1.5px grey;
+}
+
+.btn_delete{
+    width: 70px;
+    height: 23px;
+    background: red;
+    color: white;
+    border: red;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 1.5px 1.5px grey;
+}
+
+.btn{
+    width: 70px;
+    height: 23px;
+    background:rgb(207, 206, 206);
+    border: rgb(207, 206, 206);
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 1.5px 1.5px grey;
+}
+
+.btn_update:hover { cursor: pointer; }
+.btn_delete:hover { cursor: pointer; }
+.btn:hover { cursor: pointer; }
+
+.btn_create{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 4px;
+    background: rgb(8, 182, 8);
+    border: none;
+    margin: 2px 2px 2px;
+    cursor: pointer;
+    color: white;
+}
